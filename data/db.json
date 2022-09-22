@@ -1,0 +1,84 @@
+{
+  "posts": [],
+  "users": [
+    {
+      "name": "Umair Ahmed",
+      "email": "umairr.ahmed@devsinc.com",
+      "password": "1234",
+      "role": "manager",
+      "id": 1
+    },
+    {
+      "name": "Kashir Saeed Gandu",
+      "email": "2020cs27@student.uet.edu.pk",
+      "password": "1234",
+      "role": "manager",
+      "id": 2
+    },
+    {
+      "name": "Abdul Ahad",
+      "email": "2020cs5@student.uet.edu.pk",
+      "password": "1234",
+      "role": "qa",
+      "id": 3
+    },
+    {
+      "name": "Huzaifah",
+      "email": "2020cs2@student.uet.edu.pk",
+      "password": "1234",
+      "role": "developer",
+      "id": 4
+    }
+  ],
+  "projects": [
+    {
+      "title": "Honesty",
+      "description": "Good One",
+      "userID": "1",
+      "developers": [
+        2,
+        4
+      ],
+      "qas": [],
+      "id": 1
+    },
+    {
+      "title": "Bugzillah",
+      "description": "This is our new project.",
+      "userID": "1",
+      "developers": [
+        1,
+        4
+      ],
+      "qas": [
+        2,
+        3
+      ],
+      "id": 3
+    }
+  ],
+  "bugs": [
+    {
+      "title": " nnb j",
+      "description": "jbjhb",
+      "userID": "3",
+      "deadline": "2022-09-21",
+      "projectID": "3",
+      "status": "Resolved",
+      "id": 1
+    },
+    {
+      "title": "m ,",
+      "description": "jkk ",
+      "userID": "3",
+      "deadline": "2022-09-21",
+      "projectID": "3",
+      "status": "Resolved",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
